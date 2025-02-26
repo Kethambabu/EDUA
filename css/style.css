@@ -238,6 +238,95 @@
 }
 /*** Navbar End ***/
 
+/*** NTR Township Pages Navbar Styling ***/
+.navbar {
+    background-color: #f8f9fa !important;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.15);
+    border-bottom: 3px solid #007bff;
+}
+
+.navbar .container {
+    position: relative;
+    padding: 0;
+}
+
+.navbar .navbar-brand {
+    padding: 1rem;
+    margin-right: 0;
+}
+
+.navbar .navbar-collapse {
+    justify-content: center !important;
+}
+
+.navbar .navbar-nav {
+    margin: 0 auto;
+    align-items: center;
+}
+
+.navbar .nav-link {
+    padding: 1.5rem 1rem !important;
+    color: #333 !important;
+    font-weight: 500;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: #007bff !important;
+}
+
+.navbar .dropdown-menu {
+    border-radius: 0;
+    border: none;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .dropdown-item {
+    padding: 0.75rem 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Responsive Navbar Styles */
+@media (max-width: 991.98px) {
+    .navbar .navbar-brand {
+        padding: 0.5rem 1rem;
+    }
+    
+    .navbar .navbar-collapse {
+        background-color: #f8f9fa;
+        padding: 1rem 0;
+    }
+    
+    .navbar .nav-link {
+        padding: 0.75rem 1rem !important;
+    }
+    
+    .navbar .dropdown-menu {
+        background-color: transparent;
+        box-shadow: none;
+        padding: 0;
+    }
+    
+    .navbar .dropdown-item {
+        padding: 0.5rem 1rem;
+        color: #333 !important;
+    }
+    
+    .navbar .dropdown-item:hover {
+        background-color: transparent;
+        color: #007bff !important;
+    }
+}
+
 /*** Carousel Header Start ***/
 .header-carousel .header-carousel-item {
     position: relative;
