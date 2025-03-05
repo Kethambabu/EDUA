@@ -109,84 +109,30 @@
 
 
 
-    <div class="container-fluid sticky-top px-0" style="background-color:white;">
-    
-    <!-- Navbar & Hero Start -->
-    <div class="container-fluid sticky-top px-0" >
-
-        <div class="container px-0">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-light py-2 px-3" style="background: blue; height:50%;">
-                <style>
-                    .navbar-dark .navbar-nav .nav-link {
-                        color: #000000 !important;
-                        padding: 0.4rem 0.6rem !important;
-                        font-size: 0.9rem;
-                        letter-spacing: -0.02em;
-                        
-                    }
-                    .navbar-dark .navbar-nav .nav-link:hover,
-                    .navbar-dark .navbar-nav .nav-link.active {
-                        color: #0d6efd !important;
-                    }
-                    .navbar-dark .navbar-nav .dropdown-menu {
-                        background-color: yellow;
-                        margin-top: 0;
-                        padding: 0.2rem 0;
-                    }
-                    .navbar-dark .navbar-nav .dropdown-item {
-                        color: #000000;
-                        padding: 0.4rem 0.8rem;
-                        font-size: 0.9rem;
-                    }
-                    .navbar-dark .navbar-nav .dropdown-item:hover {
-                        background-color: #0d6efd;
-                        color:yellow;
-                    }
-                    .navbar-nav {
-                        gap: 0.1rem;
-                    }
-                    .navbar .container-fluid {
-                        padding-left: 0.3rem;
-                        padding-right: 0.3rem;
-                    }
-                    .navbar-brand {
-                        padding-right: 0.5rem;
-                    }
-                    .navbar-collapse {
-                        justify-content: center;
-                    }
-                    @media (max-width: 991px) {
-                        .navbar-collapse {
-                            text-align: center;
-                        }
-                        .navbar-nav {
-                            flex-direction: column;
-                        }
-                        .nav-item {
-                            width: 100%;
-                        }
-                    }
-                </style>
-                
+    <div class="container-fluid sticky-top px-0">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
                 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav mx-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">HOME</a>
-                        <div class="nav-item dropdown">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ABOUT EUDA</a>
-                            <div class="dropdown-menu m-0">
+                            <div class="dropdown-menu">
                                 <a href="about.html" class="dropdown-item">ABOUT US</a>
                                 <a href="Who-is-Who.html" class="dropdown-item">WHO IS WHO</a>
                                 <a href="EUDA-staff-Details.html" class="dropdown-item">EUDA STAFF DETAILS</a>
                             </div>
-                        </div>
+                        </li>
                         
-                        <div class="nav-item dropdown">
+                        <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PLANNING</a>
-                            <div class="dropdown-menu m-0">
+                            <div class="dropdown-menu">
                                 <a href="notice_boa.html" class="dropdown-item">LIST OF APPROVED LAYOUTS</a>
                                 <a href="building-approval.html" class="dropdown-item">BUILDING APPROVAL</a>
                                 <a href="fees-charge.html" class="dropdown-item">EUDA FINAL LIMITS</a>
@@ -196,43 +142,49 @@
                                 <a href="#" class="dropdown-item">DELEGATION OF POWERS TO LOCAL AUTHORITY</a>
                                 <a href="#" class="dropdown-item">LAYOUT REGULATIONS</a>
                             </div>
-                        </div>
+                        </li>
                         
-                        <div class="nav-item dropdown">
+                        <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ENGINEERING</a>
-                            <div class="dropdown-menu m-0">
+                            <div class="dropdown-menu">
                                 <a href="tenders.html" class="dropdown-item">TENDERS</a>
                                 <a href="ongoing-works.html" class="dropdown-item">ONGOING WORKS</a>
                                 <a href="#" class="dropdown-item">COMPLETED WORKS</a>
                                 <a href="#" class="dropdown-item">LIST OF CONTRACTORS</a>
                                 <a href="#" class="dropdown-item">GOS</a>
                             </div>
-                        </div>
+                        </li>
                         
-                        <div class="nav-item dropdown">
+                        <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ACCOUNTS</a>
-                            <div class="dropdown-menu m-0">
+                            <div class="dropdown-menu">
                                 <a href="landbak.html" class="dropdown-item">BUDGET</a>
                                 <a href="mortage-dees.html" class="dropdown-item">FINANCIAL POWERS</a>
                                 <a href="land-poolng.html" class="dropdown-item">NOTE ON AUDIT</a>
                             </div>
-                        </div>
+                        </li>
                         
-                        <div class="nav-item dropdown">
+                        <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">LAND ACQUISITION</a>
-                            <div class="dropdown-menu m-0">
+                            <div class="dropdown-menu">
                                 <a href="circulars.html" class="dropdown-item">CIRCULARS</a>
                                 <a href="gos.html" class="dropdown-item">GO'S</a>
                             </div>
-                        </div>
+                        </li>
                         
-                        <a href="download.html" class="nav-item nav-link">GALLERY</a>
-                        <a href="mig-layouts.html" class="nav-item nav-link">MIG LAYOUT</a>
-                        <a href="contact.html" class="nav-item nav-link">CONTACT US</a>
-                    </div>
+                        <li class="nav-item">
+                            <a href="download.html" class="nav-item nav-link">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="mig-layouts.html" class="nav-item nav-link">MIG LAYOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-item nav-link">CONTACT US</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </div>
 
     
@@ -352,7 +304,7 @@
     
 
     <div class="master-plan">
-        <h2>EUDA Master Plan (2040)</h2>
+        <h2>EUDA Master Plan</h2>
         <img src="img/ELURUPLU FULL SUBMISSIONFINAL28-12_page-0001.jpg" alt="Master Plan" width="100%">
     </div>
 </div>
