@@ -126,16 +126,56 @@
 /*** Topbar End ***/
 
 /*** Navbar ***/
+.navbar {
+    width: 100%;
+    background-color: #ffffe0 !important;
+    padding: 0;
+}
 
+.navbar-dark {
+    background-color: #ffffe0 !important;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #000 !important;
+    border-color: #000 !important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar .navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .navbar .navbar-nav .nav-item.nav-link,
 .navbar .navbar-nav .nav-link {
-    color: var(--bs-dark) !important;
+    color: #000 !important;
 }
 
 .navbar .navbar-nav .nav-item {
     position: relative;
     margin: 0 5px !important;
+}
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .navbar .navbar-nav .nav-item {
+        margin: 5px 0 !important;
+    }
+    
+    .navbar .navbar-nav .dropdown-menu {
+        text-align: center;
+        background-color: #ffffe0;
+        border: none;
+    }
 }
 
 .navbar .navbar-nav .nav-item::before,
